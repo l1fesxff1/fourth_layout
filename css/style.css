@@ -292,10 +292,6 @@ body {
   width: 100%;
   background-color: #fff;
 }
-.develop #develop_href {
-  margin-top: -100px;
-  position: absolute;
-}
 .develop .develop_content {
   box-sizing: border-box;
   max-width: 1220px;
@@ -980,6 +976,91 @@ body {
   }
   .mentors .mentors_content .third_slider .mentor_right .mentor_text p {
     max-width: 700px;
+  }
+}
+@media (max-width: 500px) {
+  .develop .develop_content .develop_title {
+    font-size: 25px;
+  }
+  .develop .develop_content .first_slider .slide .slide_title {
+    font-size: 18px;
+    padding: 0;
+  }
+  .develop .develop_content .first_slider .slide .slide_text {
+    font-size: 13px;
+    letter-spacing: normal;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    height: 60px;
+  }
+  .header .header_content {
+    height: 60px;
+  }
+  .header .header_content .header_logo {
+    width: 50px;
+    height: 50px;
+  }
+  .header .header_content .header_logo img {
+    height: 50px;
+    width: 50px;
+  }
+  .burger_menu.active {
+    top: 55px;
+  }
+  .form .content_form {
+    padding-top: 90px;
+  }
+  .form .content_form .courses {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+  }
+  .form .content_form .courses .courses_title {
+    font-size: 24px;
+    margin-right: 0;
+    align-self: center;
+    max-width: 270px;
+  }
+  .form .content_form .courses .courses_text {
+    font-size: 14px;
+  }
+  .form .content_form .registration {
+    padding-top: 20px;
+  }
+  .form .content_form .registration .inputs {
+    height: 40px;
+  }
+  .form .content_form .registration .button_registration {
+    font-size: 12px;
+  }
+  .form .content_form .registration .button_registration .button_text {
+    padding: 13px 30px;
+  }
+  .stat .stat_content .stat_block .stat_icon {
+    margin-bottom: 0;
+  }
+  .stat .stat_content .stat_block .stat_number {
+    font-family: open_sans;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+  }
+  .stat .stat_content .stat_block .stat_text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1210px) {
+  .develop .develop_content .first_slider .slide .slide_title {
+    font-size: 21px;
+  }
+}
+@media (max-width: 997px) {
+  .develop .develop_content .first_slider .slide .slide_title:nth-child(2) {
+    padding-bottom: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
